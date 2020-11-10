@@ -7,13 +7,13 @@ function saturdayFun (activity = "roller-skate") {
 mondayWork()
 function mondayWork(activity = "go to the office") {
     return (`This Monday, I will ${activity}.`)
-};
+}
 
 function wrapAdjective(hm = "*"){
 return function(ugh = "special") {
 return `You are ${hm+ugh+hm}!`
 }
-};
+}
 
 const Calculator = {
     add: function(){
